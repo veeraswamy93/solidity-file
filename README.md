@@ -2,13 +2,15 @@
 
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+  pragma solidity ^0.8.0;
  
- contract studet {
+  
+  
+  contract studet {
     
-    uint id;
-     uint age;
-     string name;
+      uint id;
+      uint age;
+      string name;
 
      function add1stu(uint _id,uint _age,string memory _name) public {
                id =_id;
